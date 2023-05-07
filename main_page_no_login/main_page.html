@@ -52,7 +52,9 @@
                   />
                 </li>
                 <li class="header-item">
-                  <button class="login-button header-button border-gradient">Войти</button>
+                  <button class="login-button header-button border-gradient">
+                    Войти
+                  </button>
                 </li>
                 <li class="header-item">
                   <button class="reg-button header-button border-gradient">
@@ -66,5 +68,64 @@
       </div>
     </header>
     <!--Header end-->
+    <!--Order form start-->
+    <section class="order">
+      <div class="wrapper">
+        <div class="order-form">
+          <div class="wrapper-content">
+            <div class="order-form_main">
+              <div class="order-form_card">
+                <div class="order-form_wrapper">
+                  <h3 class="order-form_card-header">
+                    Найдем номера под ваши пожелания
+                  </h3>
+
+                  <div class="order-dates">
+                    <div class="order-dates_label">
+                      <label for="arrive"
+                        ><i class="arrive-date"></i>ПРИБЫТИЕ</label
+                      ><br />
+                      <div class="order-date_field">
+                        <input
+                          type="date"
+                          class="order-date_input"
+                          placeholder="ДД-ММ-ГГГГ"
+                          value="ДД-ММ-ГГГГ"
+                        />
+                        <!-- 
+                        <span class="order-date_icon">
+                          <img src="/images/svg/expand_more.svg" alt="arrow">
+                        </span>
+                        -->
+                      </div>
+                    </div>
+
+                    <div class="order-dates_label">
+                      <label for="departure"
+                        ><i class="departure-date"></i>ВЫЕЗД</label
+                      ><br />
+                      <div class="order-date_field">
+                        <input
+                          type="date"
+                          class="order-date_input"
+                          placeholder="ДД-ММ-ГГГГ"
+                          value="ДД-ММ-ГГГГ"
+                        />
+                        <!--
+                        <span class="order-date_icon">
+                          <img src="/images/svg/expand_more.svg" alt="arrow">
+                        </span>
+                        -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Order form end-->
   </body>
 </html>
